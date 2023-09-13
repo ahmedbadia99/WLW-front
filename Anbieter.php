@@ -37,7 +37,7 @@ include 'template/header.php';
                                         <a href="add-proprety.php?type=Appartement"><button type="button" class="btn btn-success waves-effect waves-light mb-2 me-2"><i class="mdi mdi-plus me-1"></i> Ajouter</button></a>
                                     </div>
                                 </div>-->
-                                <div id="table-appartement"></div>
+                                <div id="table-anbieter"></div>
                             </div>
                         </div>
                     </div>

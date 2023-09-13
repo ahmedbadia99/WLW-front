@@ -23,14 +23,7 @@
 
         <script src="assets/js/pages/dashboard.init.js"></script>
 
-        <script src="assets/js/pages/appartement.js"></script>
-        <script src="assets/js/pages/villa.js"></script>
-        <script src="assets/js/pages/riad.js"></script>
-        <script src="assets/js/pages/terrain.js"></script>
-        <script src="assets/js/pages/bureau.js"></script>
-        <script src="assets/js/pages/local.js"></script>
-        <script src="assets/js/pages/hotes.js"></script>
-        <script src="assets/js/pages/users.js"></script>
+        <script src="assets/js/pages/anbieter.js"></script>
 
 
         <script src="assets/libs/gridjs/gridjs.umd.js"></script>
