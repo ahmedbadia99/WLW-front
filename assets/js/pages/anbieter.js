@@ -26,8 +26,8 @@ new gridjs.Grid({columns:[
 "#","Name","Adresse","Telefonnummer","Website","Liefergebiet","Gründung","Mitarbeiter","Umsatzsteuer","Handelsregister","Email","Kategorie",
 ],pagination:{limit:50},sort:!0,search:!0,
 server: {
-    url: './PHP/anbieter.php',
-    then: data => data.map(prop => [prop.path,prop.ref, prop.titre,prop.prix, prop.Adresse, prop.Type , prop.idm ])
+    url: './PHP/Anbieter.php',
+    then: data => data.map(prop => [prop.AID,prop.Anbieter_Name, prop.Adresse,prop.Telefonnummer, prop.Website, prop.Liefergebiet , prop.Gründung , prop.Mitarbeiter, prop.Identifikationsnummer, prop.Handelsregister, prop.Email, prop.Kategorie  ])
   } ,
 //data:[["","#SK2540","Neal Matthews","07 Oct, 2021","$400","Vente","View Details"],["","#SK6563","Kenneth Linck","09 Oct, 2021","$254","Location Saisoniare","View Details"]]
 })
