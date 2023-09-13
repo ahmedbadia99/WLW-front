@@ -86,21 +86,21 @@
                                 <i data-feather="sun" class="icon-sm layout-mode-light"></i>
                             </button>
                         </div>
-
+                        <!--
                         <div class="dropdown d-inline-block">
                             <button type="button" class="btn header-item user text-start d-flex align-items-center" id="page-header-user-dropdown"
                                 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <img class="rounded-circle header-profile-user" src="images/icon.png" alt="Header Avatar">
                             </button>
                             <div class="dropdown-menu dropdown-menu-end pt-0">
-                               <!-- <a class="dropdown-item" href="contacts-profile.html"><i class='bx bx-user-circle text-muted font-size-18 align-middle me-1'></i> <span class="align-middle">My Account</span></a>
+                                <a class="dropdown-item" href="contacts-profile.html"><i class='bx bx-user-circle text-muted font-size-18 align-middle me-1'></i> <span class="align-middle">My Account</span></a>
                                 <a class="dropdown-item" href="apps-chat.html"><i class='bx bx-chat text-muted font-size-18 align-middle me-1'></i> <span class="align-middle">Chat</span></a>
                                 <a class="dropdown-item" href="pages-faqs.html"><i class='bx bx-buoy text-muted font-size-18 align-middle me-1'></i> <span class="align-middle">Support</span></a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="auth-lock-screen.html"><i class='bx bx-lock text-muted font-size-18 align-middle me-1'></i> <span class="align-middle">Lock screen</span></a>-->
+                                <a class="dropdown-item" href="auth-lock-screen.html"><i class='bx bx-lock text-muted font-size-18 align-middle me-1'></i> <span class="align-middle">Lock screen</span></a>
                                 <a class="dropdown-item" href="index.php"><i class='bx bx-log-out text-muted font-size-18 align-middle me-1'></i> <span class="align-middle">Déconnecter</span></a>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </header>
