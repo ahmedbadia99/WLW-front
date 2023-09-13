@@ -1,27 +1,5 @@
 
 
-var idm = "";
-
-$(document).ready(function(){
-    $("#supprimer").click(function(){
-        //alert("ok");
-        $.ajax({
-            "url":"./PHP/delete.php",
-            "method":"POST",
-            "data":{id:idm},
-             success:function(result)
-             {
-                if(result == "OK")
-                {
-                    location.reload();
-                }
-                 
-            } 
-        })
-    
-    });
-})
-
 new gridjs.Grid({columns:[
 "#","Name","Adresse","Telefonnummer","Website","Liefergebiet","Gründung","Mitarbeiter","Umsatzsteuer","Handelsregister","Email","Kategorie",
 ],pagination:{limit:50},sort:!0,search:!0,
@@ -35,11 +13,6 @@ server: {
 
 
 
-function openmodal(id)
-{
-    $('#deleteprp').modal('toggle');
-    idm = id;
-}
 
 
 
