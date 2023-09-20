@@ -138,7 +138,7 @@
                     var pass=$('#userpassword').val();
 
                     $.ajax({
-                                "url":"PHP/Login/login.php",
+                                "url":"PHP/login.php",
                                 "method":"POST",
                                 "data":{user:user,
                                 Password:pass},
@@ -153,7 +153,7 @@
                                     else
                                     {
                                         //alert('Ok');
-                                        window.location.href = "Apercu.php";
+                                        window.location.href = "Anbieter.php";
                                     }
                                     
 
